@@ -1,4 +1,6 @@
+nvim
 less
+grub-btrfs
 google-chrome
 code
 waybar

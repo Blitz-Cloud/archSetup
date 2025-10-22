@@ -14,7 +14,7 @@ sudo pacman -S hyprland
 
 echo "Installing predefined packages using yay"
 cd ~/archSetup
-cat ./packages.txt | xargs yay -S
+cat ./packages.txt | xargs -o yay -S
 
 
 

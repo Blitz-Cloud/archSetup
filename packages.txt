@@ -1,0 +1,5 @@
+less
+google-chrome
+code
+waybar
+walker

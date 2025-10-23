@@ -19,8 +19,3 @@ sudo snapper create --description "Yay and hyprland are installed"
 echo "Installing predefined packages using yay"
 cd $HOME/archSetup
 cat $HOME/archSetup/packages.txt | xargs -o yay -S
-
-sudo systemctl start grub-btrfsd
-sudo systemctl enable grub-btrfsd
-
-sudo grub-mkconfig -o /boot/grub/grub.cfg

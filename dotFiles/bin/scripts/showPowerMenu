@@ -1,0 +1,17 @@
+#!/bin/bash
+
+
+selected_option=$(echo -e "Poweroff\nReboot\nSuspend\n" | walker --dmenu )
+
+
+case "$selected_option" in
+    "Poweroff")
+        systemctl poweroff
+    ;;
+    "Reboot")
+        systemctl reboot
+    ;;
+    "Suspend")
+        systemctl suspend
+    ;;
+esac

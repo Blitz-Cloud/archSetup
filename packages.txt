@@ -13,3 +13,5 @@ stow
 elephant
 github-cli
 uwsm
+btop
+ttf-fantasque-nerd

@@ -1,7 +1,15 @@
 nvim
 less
+inotify-tools
 grub-btrfs
 google-chrome
 code
 waybar
 walker
+zoxide
+zellij
+fzf
+stow
+elephant
+github-cli
+uwsm

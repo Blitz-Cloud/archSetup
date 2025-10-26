@@ -12,6 +12,7 @@
   "modules-right": [
     "pulseaudio",
     "backlight",
+    "network",
     "battery",
     "clock",
     "tray",
@@ -70,8 +71,9 @@
     "on-click": "showPowerMenu"
   },
   "clock": {
-    "timezone": "Asia/Dubai",
-    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "timezone": "Europe/Bucharest",
+    "tooltip": false,
+    // "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
     "format-alt": "{:%d/%m/%Y}",
     "format": "{:%H:%M}"
   },
@@ -120,7 +122,7 @@
     "tooltip-format-disconnected": "Disconnected",
     "interval": 3,
     "spacing": 1,
-    "on-click": "nmtui"
+    "on-click": "alacritty -e nmtui"
   },
   "battery": {
     "format": "{capacity}% {icon}",

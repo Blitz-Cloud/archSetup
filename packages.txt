@@ -15,3 +15,13 @@ github-cli
 uwsm
 btop
 ttf-fantasque-nerd
+calibre
+libreoffice-still
+docker
+winboat-bin
+nautilus
+ntfs-3g
+trash-cli
+alacritty
+jq
+hyprshot

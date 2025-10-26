@@ -25,3 +25,5 @@ trash-cli
 alacritty
 jq
 hyprshot
+anytype-bin
+wget

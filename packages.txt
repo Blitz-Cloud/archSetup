@@ -27,3 +27,15 @@ jq
 hyprshot
 anytype-bin
 wget
+os-prober
+cmake
+visual-studio-code-bin
+gdb
+hyprsunset
+waypaper
+hyprpaper
+pipewire-pulse
+rsync
+sqlitebrowser
+tailscale
+wakatime

@@ -8,5 +8,5 @@ for PACKAGE in $@
 do
     echo "$PACKAGE" >> $HOME/projects/archSetup/packages.txt
 done
-
+sudo pacman -Sy
 yay -S $@
